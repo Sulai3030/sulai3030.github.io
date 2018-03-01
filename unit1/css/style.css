@@ -1,5 +1,10 @@
 body{
-	background-color:black;
+#grad1 {
+    height: 200px;
+    background: red; /* For browsers that do not support gradients */
+    background: linear-gradient(to right, rgba(14,2,179,0), rgba(14,2,179,0)); /* Standard syntax (must be last) */
+}
+</style>
 }
 h1, p {
 	color: yellow;
