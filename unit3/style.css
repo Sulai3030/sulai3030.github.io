@@ -1,16 +1,18 @@
-<style>
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+* { margin:0; padding:0; box-sizing:border-box; }
 #grad1 {
     height: 800px;
-    background: 0,0,255; /* For browsers that do not support gradients */
+    background: rgb(0,0,255); /* For browsers that do not support gradients */
     background: linear-gradient(to bottom right, blue, white); /* Standard syntax (must be last) */
     border:4px solid black;
-    padding-top: 100px
-    padding-right:300;
-    padding-bottom: 150px
-    padding-left:500px;
+    padding-top: 100px;
     max-width: 1200px;
-    position: center;
     margin: auto;
-    font-family: 'Roboto', 'Times New Roman', serif;
-    }
-</style>
+    font-family: 'Bellefair', serif;
+}
+footer{
+	position: fixed;
+	text-align: center;
+	bottom: 0;
+	width: 100%
+}
