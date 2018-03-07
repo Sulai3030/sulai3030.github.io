@@ -1,16 +1,74 @@
-<style>
-#grad1 {
-    height: 800px;
-    background: 0,0,255; /* For browsers that do not support gradients */
-    background: linear-gradient(to bottom right, blue, white); /* Standard syntax (must be last) */
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+    height: 2000px;
+    background: rgb(0,0,255); /* For browsers that do not support gradients */
+    background: linear-gradient(to bottom right, orange, lightblue); /* Standard syntax (must be last) */
     border:4px solid black;
-    padding-top: 100px
-    padding-right:300;
-    padding-bottom: 150px
-    padding-left:500px;
     max-width: 1200px;
-    position: center;
     margin: auto;
-    font-family: 'Roboto', 'Times New Roman', serif;
-    }
-</style>
+    font-size: 1em;/* 1em = 16px*/
+    color:#22222;
+    line-height: 1.3;
+    position: relative;
+}
+header{
+    font-family: "Bellefair", sans serif;
+    padding: 70px, 70px, 70px, 70px;
+    position: absolute-top;
+    text-align: right;
+    width: 100%;
+    font-size: 24px;
+}
+nav{
+    text-transform: lowercase;
+    text-align: right;
+    font-size: 1em;
+}
+main{
+    max-width:30em;
+    text-align: left;
+    padding: 20px;
+    max-height: 3000px;
+    margin:2em auto;  
+    font-family: "Bellefair";
+    line-height: 1.5em;
+}
+section{
+
+}
+article
+{
+    max-width: 50em
+    text-align: center;
+}
+
+h1, h2, h3{
+    font-family: "Bellefair", sans serif;
+    font-weight: normal;
+    font-size: 1.5em;
+}
+h4{
+    font-size:1em;
+    text-align:center;
+}
+}
+a {
+    color: inherit; 
+    margin-right: 10px; 
+}
+p{
+    font-family: "Bellefair", sans serif;
+    font-size: 1em;
+    line-height: 1.0em;
+    
+}
+footer{
+    position: absolute-bottom;
+    text-align: left;
+    bottom: 0;
+    width: 100%
+}
+}
+
+
