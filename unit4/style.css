@@ -14,7 +14,7 @@ body{
 header{
     font-family: "Bellefair", sans serif;
     font-size: 2em;
-    text-align: center;
+    text-align: right;
     padding: 70px, 70px, 70px, 70px;
     position: absolute-top;
     width: 100%;
@@ -22,7 +22,7 @@ header{
 }
 nav{
     font-family: "Bellefair", sans serif;
-    font-size: 1em;
+    font-size: 16px;
     text-align: right;
     text-transform: lowercase;
     
@@ -30,7 +30,7 @@ nav{
 }
 main{
     font-family: "Bellefair", sans serif;
-    font-size: 1em;
+    font-size: 18px;
     text-align: left;
     max-width:30em;
     padding: 20px;
@@ -41,7 +41,7 @@ main{
 article
 {
     font-family: "Bellefair", sans serif;
-    font-size: 1em;
+    font-size: 18px;
     text-align: left;
     max-width: 50em;
     padding-bottom: 20px;
@@ -50,15 +50,15 @@ article
     line-height: 1.5em;
     border-bottom: 1px solid, #6e6e6e;
 }
-
+}
 h1, h2, h3{
     font-family: "Bellefair", sans serif;
     font-weight: normal;
-    font-size: 1.5em;
+    font-size: 1.0em;
 }
 h4{
     font-family: "Bellefair"
-    font-size:1em;
+    font-size:18px;
     text-align:left;
     max-width: 50em;
     padding-bottom: 20px;
