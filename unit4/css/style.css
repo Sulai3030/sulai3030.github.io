@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Bellefair');
 * { margin:0; padding:0; box-sizing:border-box; }
 body{
-    height: 4000px;
+    height: 3100px;
     max-width: 1000px;
     background: rgb(0,0,255); /* For browsers that do not support gradients */
     background: linear-gradient(to bottom right, orange, lightblue); /* Standard syntax (must be last) */
@@ -29,7 +29,7 @@ nav{
     
 }
 main{
-    font-family: "Bellefair", serif;
+    font-family: "Bellefair", sans serif;
     font-size: 18px;
     text-align: left;
     max-width:30em;
@@ -43,14 +43,14 @@ article
     font-family: "Bellefair", sans serif;
     font-size: 18px;
     text-align: left;
-    max-width: 30em;
+    max-width: 50em;
     padding-bottom: 20px;
     max-height: 6000px;
     margin: auto;
     line-height: 1.5em;
     border-bottom: 1px solid, #6e6e6e;
 }
-
+}
 h1, h2, h3{
     font-family: "Bellefair", sans serif;
     font-weight: normal;
@@ -58,7 +58,7 @@ h1, h2, h3{
 }
 h4{
     font-family: "Bellefair"
-    font-size:16px;
+    font-size:18px;
     text-align:left;
     max-width: 50em;
     padding-bottom: 20px;
