@@ -43,7 +43,7 @@ main{
     line-height: 1.5em;
     border-color: 000;
     background-color: #E89C6C;
-    float: left;
+    
 }
 #recipes
 {
@@ -70,8 +70,6 @@ main{
     margin: 0 auto;
     outline-style: solid;
     border-color: #FFE2B8;
-
-
 }
 #two_column{
     background-color: #FFB7CF;
@@ -79,14 +77,26 @@ main{
     padding:20px;
 }
 #left{
-    background-color: #E582A2;
+    background-color: violet;
     border:1px black solid;
     padding:20px;
+    float:left;
+    width: 30%
 }
 #right{
-    background-color: #E55B88;
+    background-color: pink;
     border:1px black solid;
     padding: 20px;
+    float: right;
+    width:62%;
+}
+.clearfix:after{
+    visibility:hidden;
+    display:block;
+    font-size: 0;
+    content:" ";
+    clear: both;
+    height:0;
 }
 h1, h2, h3{
     font-family: "Bellefair", sans serif;
