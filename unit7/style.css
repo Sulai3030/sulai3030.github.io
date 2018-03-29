@@ -70,7 +70,7 @@ main{
 #wrapper
 {
     height: 8000px;
-    background: #0093D1;
+    background: #1F19CC;
     max-width: 1700px;
     padding: 20px;
     border:30px solid black;
@@ -84,7 +84,7 @@ main{
     padding:20px;
 }
 #left{
-    background-color: #E8D2A4;
+    background-color: #74FF53;
     border:1px black solid;
     padding:20px;
     float:left;
