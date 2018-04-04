@@ -48,7 +48,7 @@ main{
     visibility:hidden;
     height:0;
     font-size:0;
-    content:"hello";
+    content:"";
     display:block;
     clear: both;
     
