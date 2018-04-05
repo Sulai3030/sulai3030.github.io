@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css?family=Noto+Serif');
 * { margin:0; padding:0; box-sizing:border-box; }
 body{
+<<<<<<< HEAD
     height: 3500px;
     max-width: 90%;
     /*background: rgb(0,0,255); /* For browsers that do not support gradients */
@@ -22,15 +23,22 @@ header{
     width: 100%;
     
     
+=======
+    background: #0093D1; /* Standard syntax (must be last) */
+    /* 1em = 16px*/
+    font-size:16px;
+    line-height: 1.3;
+    position: relative;
+    font-family: "Noto", serif;
+    color: #fff;
+>>>>>>> f587c1f0958539092be8e3742d09518e71602b1e
 }
 nav{
-    font-family: "Bellefair", sans serif;
-    font-size: 16px;
+    font-family: "Bellefair", sans-serif;
     float:right;
-    text-transform: lowercase;
-    
-    
+    text-transform: lowercase;   
 }
+<<<<<<< HEAD
 main{
     font-family: "Noto", serif;
     font-size: 18px;
@@ -44,13 +52,21 @@ main{
     font-color:#000;
     
     
+=======
+section, #recent article {
+    padding:4em 0;
+}
+p + p {
+    margin-top:1em;
+>>>>>>> f587c1f0958539092be8e3742d09518e71602b1e
 }
 /*.clearfix:after{
     visibility:hidden;
     height:0;
     font-size:0;
-    content:"hello";
+    content:" ";
     display:block;
+<<<<<<< HEAD
     clear: both;
 */    
 }
@@ -159,37 +175,25 @@ h4{
     max-height: 3000px;
     margin: auto;
     line-height: 1.5em;
+=======
+    clear: both;  
+}
+#recipes {
+    font-family: "Bellefair", sans-serif;
+    border-bottom: 1px solid, #6e6e6e;
+}
+h1, h2, h3{
+    font-family: "Bellefair", sans serif;
+    font-weight: normal;
+>>>>>>> f587c1f0958539092be8e3742d09518e71602b1e
 }
 a {
     text-decoration:none; 
-    text-decoration-color: blue; 
-    
-}
-p{
-    font-family: "Bellefair", sans serif;
-    font-size: 1em;
-    text-align: left;
-    max-width: 50em;
-    line-height: 1.3em;
-    margin: auto;
-    
 }
 footer{
     background-color: #FF9383;
-    position: absolute;
-    text-align: center;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    padding: 1rem;
-    width: 100%;
-    font-family: "Bellefair"
-    
+    padding: 4em 0;
 }
 img {
     width: 50%;
-    height: 25%;
 }
-}
-
-

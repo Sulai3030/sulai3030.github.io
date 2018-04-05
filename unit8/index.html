@@ -5,7 +5,6 @@
 	<link rel="stylesheet" href="css/style.css" type="text/css">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-
 <style>
 /* Popup container - can be anything you want */
 .popup {
@@ -65,6 +64,40 @@
 }
 </style>
 	<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<style>
+body {font-family: 'Bellfair', 'Noto', serif;}
+
+input[type=text], select, textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #000;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: 1695A3;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+</style>
 </head>
 <body>
 	<div class="wrapper">
@@ -104,21 +137,22 @@
 			<li>Parmesan to taste </li>
 			</ul>
 			<p>Cook pasta al dente and set aside.</p>
-			
 			<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
 			</h4>
 		</aside>
 		<article id="column2" class="clearfix">
 			<main>
 				<h2>About Me</h2>
-				<h4><p>I am an editor and writer with book, blogging, recipe, online and E-publishing experience. I have an MFA in Writing from The New School University in New York City and a Certificate in Publishing from Emerson College.</h4></p>
-				<h4><p>Well Examiner was taken down and I have to find a new place to post my recipes. No fear though on new experiences. I will start reposting the old recipes here while I search out a new place to publish new recipes.</p></h4>
-				<h4>I discovered programming a while back and now I am enthralled. There is so much you can do with it! Look at this button!</h4>
-				<button class="button button2">
-					<div class="popup" onclick="myFunction()">Here to toggle the popup!
-  					<span class="popuptext" id="myPopup">A Simple Popup!</span>
-					</div>
-
+				<h4><p>Hi! My name is Sulai, I am an editor and writer with book, blogging, recipe, online and E-publishing experience. I have an MFA in Writing from The New School University in New York City and a Certificate in Publishing from Emerson College in Boston, MA.</h4></p>
+				<center><img src="images/rufus.jpg" alt="rufus and myself" alt="rufus and myself"></center>
+			<section id="recent">
+			<article>
+				<h2>Goals</h2>
+				<p><h4>I discovered programming a while back and now I am enthralled. My goal is to become the best software developer possible. I truly enjoy new challenges and gaining new knowledge. Learning Javascript was so much fun! There is so much you can do with it! Look at this button! </h4>				
+					<button class="button button2">
+						<div class="popup" onclick="myFunction()">Here to toggle the popup!
+  						<span class="popuptext" id="myPopup">A Simple Popup!</span>
+						</div>
 						<script>
 							// When the user clicks on div, open the popup
 								function myFunction() {
@@ -126,16 +160,38 @@
     							popup.classList.toggle("show");
 									}
 						</script></button>
-			<section id="recent">
-			<article>
-				<h2>Additional Article excerpts</h2>
-				<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
+						<br>
+						<p>I hope to use the knowledge I gain from the Web Development Immersion course to becaome the best web developer possible.
+					</p>
 				<a href="#" class="cta">Read More</a>
 			</article>
 			<article>
-				<h2>Additional Article excerpts</h2>
-				<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
-				<a href="#" class="cta">Read More</a>
+				<h2>Contact Me!</h2>
+				<p>The best way to contact me is through this web form that I have included here:</p>
+				<h3>Contact Form</h3>
+
+					<div class="container">
+  						<form action="/action_page.php">
+    					<label for="fname">First Name</label>
+    					<input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+    					<label for="lname">Last Name</label>
+    					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+    					<label for="country">Country</label>
+    					<select id="country" name="country">
+      					<option value="australia">Great Britain</option>
+      					<option value="canada">Canada</option>
+      					<option value="usa">USA</option>
+    					</select>
+
+    					<label for="subject">Subject</label>
+    					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    					<input type="submit" value="Submit">
+  						</form>
+						</div>
+				
 			</article>
 			<article>
 				<h2>Additional Article excerpts</h2>
