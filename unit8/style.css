@@ -63,7 +63,7 @@ main{
     
     
 }
-aside{
+article{
     font-family: "Noto", serif;
     font-size: 1em;
     width: 35%;
@@ -102,7 +102,7 @@ aside{
 }
 #recipes
 {
-    font-family: "Bellefair", sans serif;
+    font-family: "Bellefair", serif;
     /*font-size: 18px;*/
     text-align: right;
     max-width: 15em;
