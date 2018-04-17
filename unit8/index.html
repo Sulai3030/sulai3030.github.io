@@ -61,8 +61,7 @@
     from {opacity: 0;}
     to {opacity:1 ;}
 }
-</style>
-<style>
+
 body {font-family: 'Bellfair', 'Noto', serif;}
 
 input[type=text], select, textarea {
@@ -97,9 +96,8 @@ input[type=submit]:hover {
 </style>
 </head>
 <body>
-	<div class="wrapper">
-		<header></header>
-			<nav>
+	<div class="wrapper">	
+		<nav>
 				<a href="index.html">HOME</a>|
 				<a href="#">RESUME</a>|
 				<a href="#">BLOG</a>|
@@ -107,71 +105,62 @@ input[type=submit]:hover {
 				<a href="recipes.html">RECIPES</a>	
 		</nav>
 		<section id="column1">
-			<div class="about"><p>
-				<center><h2>Writing Professional</h2></center></p>
-			</div>
-			<article id="column1" class="clearfix">
-				<main>
-					<h2>About Me</h2>
-					<p>Hi! My name is Sulai, I am an editor and writer with book, blogging, recipe, online and E-publishing experience. I have an MFA in Writing from The New School University in New York City and a Certificate in Publishing from Emerson College in Boston, MA.</h2>
-					</p>
-				<center><img src="/images/rufus.jpg" alt="rufus and myself" alt="rufus and myself"></center>
-			<section id="recent">
-			<article>
-				<h2>Goals</h2>
-					<p><h4>I discovered programming a while back and now I am enthralled with how much one can accomplish with programming, whether it's designing interactive websites with javascripts or building infrascructure that helps expand a faster  internet to far-flung locales.</h4></p> 
-					<p><h4>My goal is to become the best software developer possible. I truly enjoy new challenges and gaining new knowledge. Learning Javascript was so much fun! There is so much you can do with it! Look at this button! </h4></p>				
-					<button class="button button2">
-						<div class="popup" onclick="myFunction()">Click Here to Toggle the Popup!
-  						<span class="popuptext" id="myPopup">A Simple Popup!</span>
-						</div>
-							<script>
-							// When the user clicks on div, open the popup
-								function myFunction() {
-    							var popup = document.getElementById("myPopup");
-    							popup.classList.toggle("show");
-									}
-							</script></button>
-						<p>I hope to use the knowledge I gain from the Web Development Immersion course to become the best web developer I can.
-						</p>
-						<a href="#" class="cta">Read More</a>
-			</article>
-			<article>
-				<article>
-				<h2>Contact Me!</h2>
-				<p>The best way to contact me is through this web form that I have included here:</p>
-				<h3>Contact Form</h3>
+			<h1 class="about">Writing Professional</h1>
+			<h2>About Me</h2>
+			<p>Hi! My name is Sulai, I am an editor and writer with book, blogging, recipe, online and E-publishing experience. I have an MFA in Writing from The New School University in New York City and a Certificate in Publishing from Emerson College in Boston, MA.</p>
+			<img src="images/rufus.jpg" alt="rufus and myself" alt="rufus and myself">
+		</section>
+		<section id="recent">
+			<h2>Goals</h2>
+			<p>I discovered programming a while back and now I am enthralled with how much one can accomplish with programming, whether it's designing interactive websites with javascripts or building infrascructure that helps expand a faster  internet to far-flung locales.</p> 
+			<p>My goal is to become the best software developer possible. I truly enjoy new challenges and gaining new knowledge. Learning Javascript was so much fun! There is so much you can do with it! Look at this button!</p>						<button class="button button2">
+				<div class="popup" onclick="myFunction()">Click Here to Toggle the Popup!
+  					<span class="popuptext" id="myPopup">A Simple Popup!</span>
+				</div>
+				<script>
+					// When the user clicks on div, open the popup
+					function myFunction() {
+    						var popup = document.getElementById("myPopup");
+    						popup.classList.toggle("show");
+					}
+				</script>
+			</button>
+			<p>I hope to use the knowledge I gain from the Web Development Immersion course to become the best web developer I can.</p>
+			<a href="#" class="cta">Read More</a>
+		</section>
+		<section>
+			<h2>Contact Me!</h2>
+			<p>The best way to contact me is through this web form that I have included here:</p>
+			<h3>Contact Form</h3>
+			<form action="/action_page.php">
+    				<label for="fname">First Name</label>
+    				<input type="text" id="fname" name="firstname" placeholder="Your name..">
+				
+				<label for="lname">Last Name</label>
+    				<input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-					<div class="container">
-  						<form action="/action_page.php">
-    					<label for="fname">First Name</label>
-    					<input type="text" id="fname" name="firstname" placeholder="Your name..">
-
-    					<label for="lname">Last Name</label>
-    					<input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
-    					<label for="country">Country</label>
-    					<select id="country" name="country">
+    				<label for="country">Country</label>
+    				<select id="country" name="country">
       					<option value="greatbritain">Great Brittain</option>
       					<option value="canada">Canada</option>
       					<option value="usa">USA</option>
-    					</select>
+    				</select>
 
-    					<label for="subject">Subject</label>
-    					<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+    				<label for="subject">Subject</label>
+    				<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
 
-    					<input type="submit" value="Submit">
-  						</form>
-						</div>
-				
-			</article>
-				<article id="column2" class="clearfix">
-					<h2>Food Writing Recipes Looking For A New Home</h2>
-					<h4><p>I used to write recipes for Examiner.com. I was the New York City Budget Meals Examiner. I wrote simple, affordable meals for the busy average person with budget constraints. Most meals I created would cost between $50-$75 to buy all the ingredients and they would last a single person at least four days.</p>
-					<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
-					<p>It was really fun creating meals on the fly and gave me a new hobby which I continue to this day. Plus we had to take our own photos so I got seriously into photography. I’m still not great at it but it is another pastime that I have. Yes I’m one of those sunset photo takers, but I also take all the photos for my recipes.</p>
-					<p><h3>Fresh and Flavorful Pasta, Basil, with Tomatoes</h3>
-					<center><img src="images/pasta_recipe.jpg" alt="pasta_recipe" title="pasta_recipe"></center>
+    				<input type="submit" value="Submit">
+  			</form>
+		</section>
+		<section id="recent">
+			<h2>Blog articles</h2>
+			<article id="column2" class="clearfix">
+				<h3>Food Writing Recipes Looking For A New Home</h3>
+				<p>I used to write recipes for Examiner.com. I was the New York City Budget Meals Examiner. I wrote simple, affordable meals for the busy average person with budget constraints. Most meals I created would cost between $50-$75 to buy all the ingredients and they would last a single person at least four days.</p>
+				<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
+				<p>It was really fun creating meals on the fly and gave me a new hobby which I continue to this day. Plus we had to take our own photos so I got seriously into photography. I’m still not great at it but it is another pastime that I have. Yes I’m one of those sunset photo takers, but I also take all the photos for my recipes.</p>
+				<h3>Fresh and Flavorful Pasta, Basil, with Tomatoes</h3>
+				<img src="images/pasta_recipe.jpg" alt="pasta_recipe" title="pasta_recipe">
 				<ul>
 					<li>1lb Rigatoni or Penne pasta</li> 
 					<li>3 Tlb Olive oil</li>
@@ -186,17 +175,15 @@ input[type=submit]:hover {
 					<li>1/2 cup fresh basil</li>
 					<li>Parmesan to taste </li>
 				</ul>
-					<p>Cook pasta al dente and set aside.</p>
-					<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
-			</h4>
-		</article>
-			<h2>Additional Article excerpts</h2>
-					<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
-					<a href="#" class="cta">Read More</a>
+				<p>Cook pasta al dente and set aside.</p>
+				<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
+			</article>
+			<article>
+				<h3>Additional Article excerpts</h3>
+				<p>Some of the best recipes are happy accidents. I was cleaning my bedroom and clearing a stack of papers off my desk when I noticed that one of them had a handwritten recipe on it. I have no idea where it came from but judging from the ingredients I was game to eat. Initially I tried this recipe with linguine but decided to experiment with different pastas when the grocery store near me had a sale. I found that Penne and Rigatoni’s ridges picked up the spices and held onto the flavors better than the linguini did.</p>
+				<a href="#" class="cta">Read More</a>
 			</article>
 		</section>
-		</main>
-		</article>			
 	</div>
 	<footer>
 		<nav>
