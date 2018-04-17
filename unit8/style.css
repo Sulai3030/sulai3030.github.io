@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css?family=Bellefair');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif');
+* { margin:0; padding:0; box-sizing:border-box; }
+body{
+    height: 2500px;
+    max-width: 96%;
+    /*background: rgb(0,0,255); /* For browsers that do not support gradients */
+    background: #2812B2; /* Standard syntax (must be last) */
+    border:8px solid black;
+    margin: auto;
+    /* 1em = 16px*/
+    line-height: 1.5em;
+    position: relative;
+    font-family: "Noto", serif;
+    font-size: 16px;
+
+}
+header{
+    font-family: "Bellefair", sans serif;
+    font-size: 2em;
+    text-align: right;
+    padding: 70px, 70px, 70px, 70px;
+    position: absolute-top;
+    width: 100%;
+      
+}
+nav{
+    font-family: "Bellefair", sans serif;
+    font-size: .5em;
+    float:right;
+    text-transform: lowercase;
+    
+    
+}
+.column{
+    float: left;
+    width:90%;
+    height: 300px;
+    padding:1%px
+    margin:0 1%;
+}
+#column1{
+    width: 42%
+    /*background-color: #1ECC14;*/
+    margin: 0px;
+    float: left;
+}
+#column2{
+    width: 42%
+    /*background-color: #EB7F00;*/
+    margin: 0px;
+    float: left;
+}
+main{
+    font-family: "Noto", serif;
+    font-size: 1em;
+    text-align: left;
+    width:80%;
+    padding: 10px;
+    /*max-height: 4000px;*/
+    margin: 0 auto;  
+    line-height: 1.5em;
+    border:1px black solid;
+    
+    
+    
+}
+article{
+    font-family: "Noto", serif;
+    font-size: 1em;
+    width: 35%;
+    padding:0px,5px 0px 5px;
+    float: right;
+    margin: 0 20px 0 0; 
+    border:1px black solid;
+    
+    position: relative;
+    
+}
+.clearfix:after{
+    visibility:hidden;
+    display:block;
+    font-size:0;
+    content:" ";
+    clear: both;
+    height:0;
+}
+#wrapper
+{
+    height: 6000px;
+    background: #0093D1;
+    max-width: 1700px;
+    padding: 20px;
+    border:30px solid black;
+    margin: 0 auto;
+    outline-style: solid;
+    
+}
+#two_column{
+    background-color: #FF7919;
+    border:1px black solid;
+    padding:20px;
+    max-width: 30em;
+}
+#recipes
+{
+    font-family: "Bellefair", serif;
+    /*font-size: 18px;*/
+    text-align: right;
+    max-width: 15em;
+    padding-bottom: 20px;
+    max-height: 3px;
+    margin: 0 auto;
+    line-height: 1.5em;
+    border-bottom: 1px solid, #6e6e6e;
+    display: block;
+    float: right;
+}
+#left{
+    float:left;
+    width: 50%;
+    background-color: #1ECC14;
+    border:1px black solid;
+    padding:10px;
+    position: relative;
+}
+#right{
+    float: left;
+    width:50%;
+    background-color: #787218;
+    border:1px black solid;
+    padding: 10px;
+    position:relative;
+}
+#recent{
+    font-family: "Noto", serif;
+    font-size: 1em;
+    width: 35%;
+    padding:0px,5px 0px 5px;
+    float: right;
+    margin: 0 20px 0 0; 
+    border:1px black solid;
+    position: relative;
+
+}
+
+p{
+    font-family: "Bellefair", serif;
+    font-size: 1em;
+    font-weight: normal;
+    text-align: left;
+    max-width: 50em;
+    line-height: 1.5em;
+    margin: auto;
+    padding: 5px 5px 5px 0px;
+    
+}
+
+h1, h2, h3{
+    font-family: "Bellefair", serif;
+    font-weight: normal;
+    font-size: 1em;
+    font-weight: normal;
+    line-height: 1.3em;
+    
+    
+}
+h4{
+    font-weight: normal;
+    line-height: 1.3em;
+    padding-bottom: 20px;
+    
+     /*margin: auto;*/
+    
+}
+h2{
+    line-height: 1.3em;
+    padding: 10px;
+}
+a {
+    text-decoration:none; 
+    text-decoration-color: blue; 
+    
+}
+
+footer{
+    background-color: #B84A66;
+    position: absolute;
+    text-align: center;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1%;
+    margin: 0 1%
+    width: 100%;
+    font-family: "Bellefair";
+    clear: both;
+    
+}
+img {
+    width: 50%;
+    height: 25%;
+}
+ul,li {
+    padding: 20px;
+}
+@media only screen and (max-width:500px) {
+    body{
+        font-size: 13px;
+    }
+    li{
+        display:block;
+        padding: 5px;
+    }
+    nav{
+        float: none;
+    }
+
+    }
+}
+
+
